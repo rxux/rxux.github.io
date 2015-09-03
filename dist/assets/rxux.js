@@ -292,7 +292,7 @@ catch(err) {
 if (runningTests) {
   require("rxux/tests/test-helper");
 } else {
-  require("rxux/app")["default"].create({"name":"rxux","version":"0.0.0+05d8e1ec"});
+  require("rxux/app")["default"].create({"name":"rxux","version":"0.0.0+1ef9da4b"});
 }
 
 /* jshint ignore:end */
