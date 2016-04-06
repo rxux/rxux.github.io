@@ -1,38 +1,15 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 small">
+                <span class="copyright text-muted">
+                    Copyright &copy; {{ site.time | date: '%Y' }} Rexel, Rexel USA. All Rights Reserved
+                </span>
+                <span class="pull-right">
+                    <img src="{{ "/img/rexel_logo.png" | prepend: site.baseurl }}" alt="Rexel Logo" height="50">
+                </span>
+            </div>
+        </div>
     </div>
-
-  </div>
-
 </footer>
+{% include js.html %}
