@@ -6,21 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Rexel Styleguide
-email: Rich@Sollenne.com
-description: > #
-baseurl: "/_site" # the subpath of your site, e.g. /blog
-url: "http://rxux.github.io" # the base hostname & protocol for your site
-twitter_username: richsollenne
-github_username:  sollenne
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-
-contentful:
-  preview: Yes
-  production_access_token: '7c18b3ed7eb6b7e20633fb2f12919c13358a1176fa52fe0ee551a2a690022da9'
-  preview_access_token: '01ca92c9856f08a6a1fe86ed2abc8da509ed8336a999ab1e67f27d5c1ac89086'
-  space: 'd9ue08nhxkkm'
-  content_types:
-    - "article"

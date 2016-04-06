@@ -1,7 +1,4 @@
-source 'https://rubygems.org'
-gem 'contentful'
-gem 'jekyll'
+# A sample Gemfile
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem "jekyll-contentful"
-end
+gem "jekyll"
