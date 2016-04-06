@@ -3,10 +3,10 @@
   <channel>
     <title>E-commerce Style Guide</title>
     <description></description>
-    <link>http://rxux.github.io/styleguide/</link>
-    <atom:link href="http://rxux.github.io/styleguide/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Apr 2016 10:34:23 -0500</pubDate>
-    <lastBuildDate>Wed, 06 Apr 2016 10:34:23 -0500</lastBuildDate>
+    <link>http://rxux.github.io/</link>
+    <atom:link href="http://rxux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Apr 2016 10:37:45 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Apr 2016 10:37:45 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Wed, 06 Apr 2016 10:21:59 -0500</pubDate>
-        <link>http://rxux.github.io/styleguide/jekyll/update/2016/04/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://rxux.github.io/styleguide/jekyll/update/2016/04/06/welcome-to-jekyll.html</guid>
+        <link>http://rxux.github.io/jekyll/update/2016/04/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://rxux.github.io/jekyll/update/2016/04/06/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
