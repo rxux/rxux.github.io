@@ -1,16 +1,8 @@
 ---
 layout: default
 ---
-<div class="container-fluid article-body">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <article>
-          <h1>{{ page.title }}</h1>
-          <p>{{ page.contentful_fields.body | markdownify  }}</p>
-          <p>{{ page.contentful_fields.codepen }}</p>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
+<article>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.contentful_fields.body | markdownify  }}</p>
+  <p>{{ page.contentful_fields.codepen }}</p>
+</article>

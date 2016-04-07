@@ -13,14 +13,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rxux.github.io" # the base hostname & protocol for your site
 twitter_username: richsollenne
 github_username:  sollenne
+safe: false
 
-# Build settings
+  # Build settings
 markdown: kramdown
 
 contentful:
-  preview: Yes
-  production_access_token: '7c18b3ed7eb6b7e20633fb2f12919c13358a1176fa52fe0ee551a2a690022da9'
-  preview_access_token: '01ca92c9856f08a6a1fe86ed2abc8da509ed8336a999ab1e67f27d5c1ac89086'
-  space: 'd9ue08nhxkkm'
-  content_types:
-    - "article"
+  spaces:
+    - links:
+        space: d9ue08nhxkkm
+        access_token: 7c18b3ed7eb6b7e20633fb2f12919c13358a1176fa52fe0ee551a2a690022da9
+        content_types:
+          link: MyReverseMapper
